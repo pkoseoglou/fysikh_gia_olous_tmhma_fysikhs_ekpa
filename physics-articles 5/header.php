@@ -1,0 +1,3 @@
+<?php require_once __DIR__.'/config.php'; ?>
+<!doctype html><html lang="el"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?= isset($pageTitle)?esc($pageTitle).' | ':'' ?><?=esc(SITE_NAME)?></title><link rel="stylesheet" href="assets/style.css"></head><body>
+<header class="top"><a class="brand" href="index.php"><span class="atom">Φ</span><span><b><?=esc(SITE_NAME)?></b><small>Ιστορίες έρευνας από τη Φυσική</small></span></a><nav><a href="index.php">Άρθρα</a><a href="admin.php">Διαχείριση</a></nav></header><main>
