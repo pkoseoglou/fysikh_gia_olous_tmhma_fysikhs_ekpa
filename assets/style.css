@@ -248,28 +248,3 @@ border-top: 1px solid #c9e3ea;
         margin: 7px 0 10px;
     }
 }
-
-.card[hidden]{display:none!important}
-.card a{color:inherit;text-decoration:none}
-.card img{width:100%;height:220px;object-fit:cover;display:block}
-.card h3{margin:12px 0 8px}
-.card .body{padding:20px}
-.empty{padding:40px;text-align:center;color:var(--muted)}
-.article{max-width:850px;margin:35px auto;background:#fff;padding:clamp(22px,5vw,58px);border-radius:22px}
-.article h1{font-family:'Source Serif 4',Georgia,serif;font-size:clamp(32px,4vw,52px);line-height:1.12}
-.article .lead{font-size:19px;color:var(--muted);line-height:1.7}
-.article .cover{width:100%;max-height:520px;object-fit:cover;border-radius:16px;margin:24px 0}
-.prose{font-size:17px;line-height:1.9}
-.prose p{margin:0 0 1.25em}
-.back{display:inline-block;margin-bottom:20px;color:var(--blue);font-weight:700;text-decoration:none}
-.tag{display:inline-block;font-size:12px;font-weight:800;color:var(--blue);background:#e9f5fb;padding:7px 10px;border-radius:999px}
-.byline{display:flex;gap:15px;color:var(--muted);font-size:14px;margin:20px 0}
-.article-source{background:#f5f7fa;padding:20px;border-radius:14px;margin-top:35px;font-size:14px;overflow-wrap:anywhere}
-.related-articles{margin-top:40px}
-.related-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-.related-card{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}
-.related-card img{width:100%;height:140px;object-fit:cover}
-.related-body{padding:14px}
-footer{padding:30px max(5vw,24px);display:flex;justify-content:space-between;gap:20px;background:#fff;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
-@media(max-width:800px){.grid,.related-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.physics-visual{display:none}.hero{min-height:280px;padding:36px 7%}}
-@media(max-width:560px){.grid,.related-grid{grid-template-columns:1fr}.top{height:auto;min-height:70px;padding:14px 20px;gap:12px}.top nav{gap:12px}.brand small{max-width:180px}.hero{border-radius:18px}.hero h1{font-size:40px}footer{display:block}}
