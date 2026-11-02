@@ -16,6 +16,10 @@
     <span>
         © <?=date('Y')?> Τμήμα Φυσικής ΕΚΠΑ
     </span>
+
+    <div class="site-credit">
+        Designed & developed by P. Koseoglou
+    </div>
 </footer>
 
 </body>
